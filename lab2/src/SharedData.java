@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class SharedData 
+public class SharedData .
 
 {
 	private int [] array;
