@@ -1,12 +1,13 @@
+import java.util.List;
+
 public class SharedData 
 {
-	private int [] array;
+	private List<Integer> array;
 	private boolean [] winArray;
 	private boolean flag;
 	private final int b;
 	
-	public SharedData(int[] array, int b) {
-		
+	public SharedData(List<Integer> array, int b) {
 		this.array = array;
 		this.b = b;
 	}
@@ -21,7 +22,7 @@ public class SharedData
 		this.winArray = winArray;
 	}
 
-	public int[] getArray() 
+	public List<Integer> getArray() 
 	{
 		return array;
 	}
